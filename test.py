@@ -7,7 +7,7 @@ def hello():
     
 @app.route("/colin")
 def var():
-	return render_template('/Users/colins/Documents/Test/template/test.html') 
+	return render_template('test.html') 
 
 if __name__ == "__main__":
     app.run(debug = True)
